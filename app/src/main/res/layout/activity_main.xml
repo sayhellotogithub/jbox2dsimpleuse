@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/llViewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+
+    <com.iblogstreet.jbox2dsimpleuse.widget.CollisionView
+        android:id="@+id/collisionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.iblogstreet.jbox2dsimpleuse.widget.CollisionView>
+
+</RelativeLayout>
